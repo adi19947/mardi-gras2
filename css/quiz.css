@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    width: 100vw;
+  
+}
+
+.container-fluid{
+z-index: 20;
+background-color: #9453a6;
+
+}
+
+.navbar{
+    height: 80px;
+    background-color: #9453a6; 
+    color: #f2f2f2 ;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+
+.navbar-brand{
+    height: 60px;
+    pointer-events: none;
+}
+
+
+.nav-link{
+    color:#f2f2f2;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+.nav-link:hover{
+    color: #8cbf3f;
+    
+}
+
+
+
+.quiz-heading{
+    text-align: center;
+    color:#0d0d0d;
+    background-color:#e2e2e2d0 ;
+    font-family: 'Henny Penny';
+    font-size: 1.2;
+width:100vw ;
+padding: 10px;
+line-height: 1.5;
+text-decoration: underline;
+margin-bottom: 0;
+}
+
+
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2cc0f;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 15vh;
+    background-color: #9453a6;
+    color: #f2f2f2;
+    font-size: 2rem;
+    text-align: center;
+      box-shadow: 0 0 5px 2px black;  
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+     
+}
+.option-container{
+display: flex;
+flex-direction: column;
+    width: 80vw;
+    background-color: #9453a6;   
+    box-shadow: 0 0 5px 2px;    
+}
+.option{    
+    
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    color: #0d0d0d;
+}
+.option:hover{
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    width: 80vw;
+   
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+     background-color: #9453a6;   
+    box-shadow: 0 0 5px 2px;  
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+.evaluate{
+    
+    background-color: #50DBB4;
+}
+.next{
+    color: white;
+    background-color: #BF3325;
+}
+
+#score{
+     width: 80vw;
+   color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+     background-color: #9453a6;   
+    box-shadow: 0 0 5px 2px;  
+}
+
+#score-number{
+    color: #f2f2f2;
+    font-size: 2rem;
+}
+
+
+@media(min-width:600px){
+        .collapse{   
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 20px;
+}
+
+.option-container{
+display: grid;
+grid-template-columns: repeat(2,auto);
+    width: 80vw;
+}
