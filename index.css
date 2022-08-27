@@ -239,12 +239,7 @@ footer .follow-text{
 
 
 
-    .item{
-    overflow: auto;
-    max-height: fit-content;
-    max-width: fit-content;
-    left: ;
-    }
+ 
 
 
     .carousel{
@@ -285,8 +280,17 @@ footer .follow-text{
     display: none;
 }
 
+.explain{
+    position: relative;
+}
 
-.dropdown .droph:hover + .item {display: block;}  
+   .item{
+    left: 0;
+   width: auto;
+    position: relative;
+    }
+
+/* .dropdown .droph:hover + .item {display: block;}   */
 
 
 
@@ -306,10 +310,10 @@ margin-bottom: 15px;
     .cards{
     
     margin: 10px;
-    gap: 10px;
+    gap: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+     justify-content: space-around
     flex-wrap: wrap;
     margin: 10px;
 }
@@ -333,8 +337,8 @@ margin-bottom: 15px;
     justify-content: center;
     font-weight: bold;
 box-shadow: 0 0 0 1px;
-width: 200px; 
-
+/* width: 200px;  */
+margin-top: 5px;
 }
 
 .btn:hover{
