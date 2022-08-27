@@ -1,0 +1,174 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f2cc0f ;
+    width: 100vw;
+
+}
+ 
+.container-fluid{
+z-index: 20;
+background-color: #9453a6;
+
+}
+
+.navbar{
+    height: 80px;
+    background-color: #9453a6; 
+    color: #f2f2f2 ;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+
+}
+
+
+
+.navbar-brand{
+    height: 60px;
+    pointer-events: none;
+    
+}
+
+.nav-link{
+    color:#f2f2f2;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+.nav-link:hover{
+    color: #8cbf3f;
+    
+}
+
+.contact-heading{
+    text-align: center;
+    color:#0d0d0d;
+    background-color:rgba(242, 242, 242,0.7) ;
+    font-family: 'Henny Penny';
+    font-size: 1.2;
+width:100vw ;
+padding: 10px;
+line-height: 1.5;
+text-decoration: underline;
+}
+ 
+ form{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+
+ }
+ 
+div{
+    text-align: center;
+}
+ 
+ label {
+            display: none;
+            color: blueviolet;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        input {
+            
+           display:block;
+            text-align: center;
+           font-family: 'roboto',sans-serif;
+            font-size: 1.2rem;
+            margin: 10px;
+           
+        }
+
+   input:focus::placeholder {
+  color: transparent;
+}
+
+        textarea{
+            resize: none;
+   font-size: 1.2rem;
+            margin: 10px;
+           font-family: 'roboto',sans-serif;  
+             width: 370px;
+        }
+
+           textarea:focus::placeholder {
+  color: transparent;
+}
+
+::placeholder{
+    color: #0d0d0d;
+}
+
+       input[type=button]{
+padding: 5px;
+
+background-color: #f2f2f2;
+color: #9453a6;
+border-radius: 10px;
+width: 70px;
+font-weight: bold;
+box-shadow: 10px 5px 8px #888888;
+       }
+
+       input[type=button]:active{
+    background-color:#9453a6;
+color: #f2f2f2 ;
+box-shadow:inset 10px 5px 8px #9453a6;
+ }
+
+ .contact{
+    margin: 40px;
+    border: 2px solid black;
+    background-color: #f2f2f2;
+    line-height: 2;
+    font-size: 1.2rem;
+    font-family: 'roboto' sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    display: block;
+    
+
+ }
+
+
+
+
+        @media(min-width:600px){
+
+    .collapse{   
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 20px;
+}
+
+
+ label {
+            display: block;
+            color: blueviolet;
+            font-size: 1.4rem;
+        }
+
+
+
+::placeholder{
+    color: white;
+}
+
+ input[type=button]:hover{
+    background-color:#9453a6;
+color: #f2f2f2 ;
+
+ }
+}
+
+input[type=button]:active{
+box-shadow:inset 10px 5px 8px #9453a6;
+}
+
